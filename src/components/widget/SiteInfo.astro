@@ -1,6 +1,6 @@
 ---
-import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
+import { readFileSync } from "node:fs";
 import { Icon } from "astro-icon/components";
 import ci from "ci-info";
 import WidgetLayout from "@/components/common/WidgetLayout.astro";
@@ -29,7 +29,7 @@ try {
 	const pkg = JSON.parse(
 		readFileSync(new URL("../../../package.json", import.meta.url), "utf-8"),
 	);
-	blogVersion = pkg.version || "Firefly unknown";
+	blogVersion = pkg.version || "unknown";
 } catch {}
 
 // Astro 版本（从已安装的 astro 包读取）
@@ -99,10 +99,9 @@ const mainItems = [
 		value: buildPlatform,
 	},
 	{
-		icon: "mdi:clover",
+		icon: "material-symbols:person",
 		label: i18n(I18nKey.siteInfoBlogVersion),
 		value: `Firefly v${blogVersion}`,
-		href: "https://github.com/CuteLeaf/Firefly",
 	},
 	{
 		icon: "material-symbols:copyright-outline",
@@ -126,7 +125,7 @@ const detailItems: {
 		fullWidth: true,
 	},
 	{
-		icon: "mdi:clover",
+		icon: "material-symbols:person",
 		label: "Firefly",
 		value: `v${blogVersion}`,
 	},

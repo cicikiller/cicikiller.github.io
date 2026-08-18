@@ -1,29 +1,21 @@
-# 关于我 / About Me
+# 关于我
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+漫不经心写一个随笔。
 
-## 🛠️ 关于本站
+## 漫不经心
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+- 用 Agent 作为默认交付方式做 AI 应用：从需求定义、架构设计、前后端开发到部署运维，一个人闭环。
+- 沉淀一套“永不遗忘”的开发基建：对话记忆、代码知识图谱、Wiki 知识库，让修过的 bug 不再重踩。
+- 把做过的事、踩过的坑，消化成公开的知识点输出到这里。
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+## 能力栈
 
+- **Java**：Java / JUC / Spring Boot / Spring Cloud Alibaba / Gateway / OpenFeign / MyBatis
+- **Python**：Python / FastAPI / LangChain / LangGraph / Playwright
+- **AI**：Spring AI / RAG / Milvus / BM25 / RRF / BGE Reranker / Prompt 工程 / MCP
+- **数据与中间件**：MySQL / PostgreSQL / Redis / RabbitMQ / Elasticsearch / ClickHouse / MinIO
+- **前端与工程化**：Vue / React / Next.js / uni-app / Tailwind / ECharts / Git / Maven / Docker / Linux / SSE
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+## 为什么写这个博客
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
-
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
-
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
-
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
-
----
-
-*感谢你的来访！希望在这里能找到对你有用的内容！*
-
+漫不经心。
